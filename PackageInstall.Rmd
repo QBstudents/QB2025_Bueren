@@ -1,0 +1,25 @@
+---
+title: "InstallPackages"
+output: pdf_document
+date: "2024-11-18"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+
+package.list <- c('vegan','tidyverse','ggplot2','dplyr','broom', 'PNWColors')
+for (package in package.list) {
+  if (!require(package, character.only = TRUE, quietly = TRUE)) {
+    install.packages(package)
+  }
+  library(c(package), character.only = TRUE)
+}
+
+
+pnw_palette("Sailboat")
+```
+
