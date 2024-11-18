@@ -48,8 +48,13 @@ In the R code chunk below, please provide the code to:
 3) set your working directory to your '3.RStudio' folder. 
 
 ```{r}
-
+library(tidyverse)
+library(vegan)
+library(PNWColors)
+## first installed packages in PackageInstall.Rmd
 ## i did the homework and am submitting it! a+ for me. 
+
+pnw_palette("Sailboat")
 
 ```
 
