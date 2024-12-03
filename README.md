@@ -8,6 +8,8 @@
 
 ##git install test manual
 
+did it work?
 
 #git install easy version test
+
 did it work? 
