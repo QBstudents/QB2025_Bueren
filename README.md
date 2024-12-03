@@ -7,3 +7,7 @@
 
 
 ##git install test manual
+
+
+#git install easy version test
+did it work? 
