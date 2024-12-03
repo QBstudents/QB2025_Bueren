@@ -10,6 +10,8 @@
 
 did it work?
 
+if you want to add the git gui, after all steps, go to tools > project options > "turn on git + accept initialize new git" & restart. things still work normally. 
+
 #git install easy version test
 
 did it work? 
