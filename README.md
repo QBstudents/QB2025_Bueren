@@ -15,3 +15,6 @@ if you want to add the git gui, after all steps, go to tools > project options >
 #git install easy version test
 
 did it work? 
+
+# test again 012025
+whee
